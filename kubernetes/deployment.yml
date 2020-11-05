@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: gateway
-          image: admin28.azurecr.io/gateway:latest
+          image: admin28reg.azurecr.io/gateway:latest
           ports:
             - containerPort: 8080
           readinessProbe:
